@@ -281,3 +281,7 @@ fn directional_light(light: ViewTypes::DirectionalLight, roughness: f32, NdotV: 
 
     return (specular_light + diffuse) * light.color.rgb * NoL;
 }
+
+fn dummy(val: Utils::MyStruct) {
+    let myfield_ = val.myfield_;
+}

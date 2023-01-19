@@ -21,3 +21,7 @@ fn hsv2rgb(hue: f32, saturation: f32, value: f32) -> vec3<f32> {
 fn random1D(s: f32) -> f32 {
     return fract(sin(s * 12.9898) * 43758.5453123);
 }
+
+struct MyStruct {
+    myfield_: f32
+}
